@@ -1,5 +1,5 @@
 # Windows-Container-RDP-using-over-Ubuntu-Container
-# Pre-requisites: Docker should be installed.  Get a ubuntu virtual machine  - Ubuntu 18.04 + , preferrably. 
+# Pre-requisites: Docker should be installed.  Get a ubuntu virtual machine  - Ubuntu 18.04 + , preferably. 
 
 @ Use below sets of commands 
 
