@@ -53,6 +53,8 @@ Download And Run Vagrant Apps:
 
 #chmod +x Helper.sh
 
+#./Helper.sh
+
 ![image](https://user-images.githubusercontent.com/25867028/183298721-0275a745-3956-49ec-b0ec-396df3986de2.png)
 
 @@ install plugins for vagrant windows box: 
