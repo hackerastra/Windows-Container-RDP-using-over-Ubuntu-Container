@@ -95,10 +95,11 @@ After successful login.
 
 Once you have the access, you can start by installing Google Chrome or whatever Softwares you need to install on the system. 
 
-# Note: 
-1. Remember to commit the docker image. 
-2. You may have to work with the firewall path over docker container in case you are not able to access the RDP. 
-3. You have have to troubleshoot in case the Windows Box is not able to connect to the internet. Hint: You may have to look into docker network part for the same. 
+# Important Notes: 
+1. Remember to commit the docker image and its better to deal or run the above Docker / Container related commands using Dockerfile, later build the image and run the same. 
+2. As per requirement, one need to create multiple instances of the container.
+3. You may have to work with the firewall path over docker container in case you are not able to access the RDP. 
+4. You have have to troubleshoot in case the Windows Box is not able to connect to the internet. Hint: You may have to look into docker network part for the same. 
 
 Hope that helps. 
 Thanks. 
