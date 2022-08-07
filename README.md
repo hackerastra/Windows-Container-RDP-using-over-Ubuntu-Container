@@ -20,7 +20,7 @@ Installing deps --1
 
 #apt-get update -y && apt-get install -y qemu-kvm libvirt-daemon-system libvirt-dev 
 
-Permession and Changing ownership. 
+Permission and Changing ownership. 
 
 #chown root:kvm /dev/kvm
 
