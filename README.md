@@ -47,11 +47,15 @@ Installing Deps --4
 #apt-get install curl -y && apt-get install net-tools -y && apt-get install jq -y
 
 Download And Run Vagrant Apps:
-#vagrant_latest_version=$(curl -s https://checkpoint-api.hashicorp.com/v1/check/vagrant  | jq -r -M '.current_version')
 
-#curl -O https://releases.hashicorp.com/vagrant/$(echo $vagrant_latest_version)/vagrant_$(echo $vagrant_latest_version)_x86_64.deb
+![image](https://user-images.githubusercontent.com/25867028/183299544-1f030d0b-d5ab-4731-92af-ee5a85ba3682.png)
 
-#dpkg -i vagrant_$(echo $vagrant_latest_version)_x86_64.deb
+
+vagrant_latest_version=$(curl -s https://checkpoint-api.hashicorp.com/v1/check/vagrant  | jq -r -M '.current_version')
+
+curl -O https://releases.hashicorp.com/vagrant/$(echo $vagrant_latest_version)/vagrant_$(echo $vagrant_latest_version)_x86_64.deb
+
+dpkg -i vagrant_$(echo $vagrant_latest_version)_x86_64.deb
 
 ![image](https://user-images.githubusercontent.com/25867028/183298721-0275a745-3956-49ec-b0ec-396df3986de2.png)
 
