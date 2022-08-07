@@ -16,6 +16,7 @@ Afer successful execution of above command - you will gain access to container c
 ![image](https://user-images.githubusercontent.com/25867028/183298168-ab0b2c9f-fd20-4cfc-b529-33296691ac0d.png)
 
 Installing deps --1
+# clone this repository. 
 
 #apt-get update -y && apt-get install -y qemu-kvm libvirt-daemon-system libvirt-dev 
 
@@ -50,12 +51,7 @@ Download And Run Vagrant Apps:
 
 ![image](https://user-images.githubusercontent.com/25867028/183299544-1f030d0b-d5ab-4731-92af-ee5a85ba3682.png)
 
-
-"vagrant_latest_version=$(curl -s https://checkpoint-api.hashicorp.com/v1/check/vagrant  | jq -r -M '.current_version')"
-
-"curl -O https://releases.hashicorp.com/vagrant/<UseDollarSymbol>(echo $vagrant_latest_version)/vagrant_$(echo $vagrant_latest_version)_x86_64.deb"
-
-"dpkg -i vagrant_$(echo $vagrant_latest_version)_x86_64.deb"
+#chmod +x Helper.sh
 
 ![image](https://user-images.githubusercontent.com/25867028/183298721-0275a745-3956-49ec-b0ec-396df3986de2.png)
 
@@ -103,13 +99,3 @@ Once you have the access, you can start by installing Google Chrome or whatever 
 
 Hope that helps. 
 Thanks. 
-
-
-
-
-
-
-
-
-
-
