@@ -3,7 +3,7 @@
 
 @ Use below sets of commands 
 
-Pull the ubuntu: 18.04
+Pull the ubuntu 18.04 from docker hub. 
 
 #docker pull ubuntu:18.04
 
@@ -16,7 +16,8 @@ Afer successful execution of above command - you will gain access to container c
 ![image](https://user-images.githubusercontent.com/25867028/183298168-ab0b2c9f-fd20-4cfc-b529-33296691ac0d.png)
 
 Installing deps --1
-# clone this repository. 
+
+clone this repository https://github.com/hackerastra/Windows-Container-RDP-using-over-Ubuntu-Container.git 
 
 #apt-get update -y && apt-get install -y qemu-kvm libvirt-daemon-system libvirt-dev 
 
@@ -53,7 +54,7 @@ Download And Run Vagrant Apps:
 
 #chmod +x Helper.sh
 
-#./Helper.sh
+#cd Windows-Container-RDP-using-over-Ubuntu-Container && ./Helper.sh && cd ..
 
 ![image](https://user-images.githubusercontent.com/25867028/183298721-0275a745-3956-49ec-b0ec-396df3986de2.png)
 
